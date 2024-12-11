@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Minimalista</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer {
+            margin-top: auto;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi Página Web</h1>
+    </header>
+
+    <main>
+        <p>Esta es una página minimalista creada para GitHub Pages. Todo es simple, limpio y fácil de navegar.</p>
+
+        <button onclick="alert('¡Gracias por visitar!')">Haz clic aquí</button>
+
+        <p>Explora el código, modifica lo que quieras y hazlo tuyo. 
+           Si tienes dudas, consulta la <a href="https://docs.github.com/en/pages" target="_blank">documentación de GitHub Pages</a>.
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
